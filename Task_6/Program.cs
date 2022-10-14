@@ -8,9 +8,9 @@ int number = int.Parse(Console.ReadLine()!);
 
 if (number % 2 == 0) 
 {
-    Console.WriteLine("Number is even");
+    Console.WriteLine("Yes. Number is even");
 }
 else 
 {
-    Console.WriteLine("Number is odd");
+    Console.WriteLine("No. Number is odd");
 }
