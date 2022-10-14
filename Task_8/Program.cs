@@ -4,8 +4,17 @@
 
 Console.WriteLine("Enter number");
 int N = int.Parse(Console.ReadLine()!);
-Console.WriteLine("Even numbers");
+string str = ("Even numbers: ");
 for (int i = 2; i <= N; i += 2)
 {
-    Console.WriteLine(i);
+   if (i == N || i == N - 1)
+   {
+    str += i + ". ";
+   }
+   else
+   {
+    str += i + ", ";
+   }
 }
+
+Console.WriteLine(str);
